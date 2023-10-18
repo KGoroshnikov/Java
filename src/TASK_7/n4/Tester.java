@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Tester {
     public static void main(String[] args) {
-        MathFunc math = new MathFunc();
+        MathCalculable math = new MathFunc();
         System.out.print("Введите радиус окружности: ");
         Scanner s = new Scanner(System.in);
         double r = s.nextDouble();
